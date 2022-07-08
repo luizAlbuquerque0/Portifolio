@@ -1,0 +1,40 @@
+#nav {
+    display: flex;
+    align-items: center;
+    box-shadow: rgba(0,0,0, .15) 0 -2px 10px 0px;
+    justify-content: space-between;
+    padding: 2em 2em;
+    height: 50px;
+}
+
+.logo{
+    height: 200px;
+    margin-left: 10vw;
+}
+
+
+.links_list {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 10vw;
+    
+    
+}
+
+
+
+#nav a:hover,
+.active {
+    opacity: 1;
+    color: #6A5ACD;
+}
+
+
+.links_list li a {
+    font-size: 1.2em;
+    color: #7510f7;
+    padding: .4em .6em;
+    opacity: .8;
+    margin-right: 2em;
+}
+
