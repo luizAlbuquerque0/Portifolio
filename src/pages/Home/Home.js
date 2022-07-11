@@ -13,13 +13,14 @@ const Home = () => {
         <div className="description">
           <h2>Olá, me chamo Luiz!</h2>
           <p>
-            Meu primeiro contato com programação foi quando eu tinha 17 anos,
-            fui morar em outro estado pra fazer pre-vestibular, e meu colega de
-            apartamento era medalhista da olimpiada brasileira de informatica, e
-            vendo ele "codar" todo dia me chamou atenção e comecei a aprender
-            com ele". Voltei pra minha cidade, parei de estudar depois de alguns
-            anos tive contato novamente com um amigo que estuda e a paixão por
-            programação renasceu em mim.
+            Meu primeiro contato com programação aconteceu aos meus 17 anos,
+            quando fui morar em outro estado para fazer pré-vestibular. Meu
+            colega de apartamento era medalhista da Olimpíada Brasileira de
+            Informática, e vendo ele "codar" todo dia me chamou atenção e assim
+            comecei a aprender com ele. Voltei para a minha cidade, parei de
+            estudar a programação e após alguns anos tive contato novamente
+            através de um amigo que estuda, fazendo a paixão por programação
+            renascer em mim.
           </p>
           <p>
             Hoje tenho 22 anos, estou me formando em administração e passo a
@@ -59,18 +60,18 @@ const Home = () => {
             <div className="project-description">
               <h2>ReactGram</h2>
               <p>
-                Uma replica do instagram, com as funcionalidades de like e
-                comentario em foto, edição de fotos já publicadas, edição de
-                perfil,busca por titulo
+                Uma réplica do Instagram, com as funcionalidades de likes e
+                comentários em fotos, edição de fotos já publicadas, edição de
+                perfil, além de busca por título.
               </p>
               <p>
                 Tecnologias utilizadas front-end: css para estilização,
-                JavaScripte sua biblioteca react(utilizando react-router para
-                gerenciamento de estado e redux para gerenciamento de estado)
+                JavaScript e sua biblioteca react (utilizando react-router para
+                gerenciamento de rotas e redux para gerenciamento de estado).
               </p>
               <p className="p">
-                Tecnologias utilizadas back-end: Node.js e seu framework e banco
-                de dados NoSql(MongoDb)
+                Tecnologias utilizadas back-end: Node.js e seu framework, e
+                banco de dados NoSql(MongoDb)
               </p>
               <a
                 href="http://reactgram.devluizalbuquerque.com"
@@ -91,14 +92,14 @@ const Home = () => {
             <div className="project-description">
               <h2>Mini Blog</h2>
               <p>
-                Blog onde usuários podem fazer posts com um foto ilustrativa, um
-                texto e hastags
+                Blog onde usuários podem fazer posts com fotos ilustrativas,
+                textos e hashtags.
               </p>
               <p className="p">
-                Tecnologias utilizadas: css para estilização, JavaScripte sua
-                biblioteca react(utilizando react-router para gerenciamento de
-                estado e contextAPI para gerenciamento de estado) e firebase
-                como banco de dados
+                Tecnologias utilizadas: css para estilização, JavaScript e sua
+                biblioteca react (utilizando react-router para gerenciamento de
+                rotas e contextAPI para gerenciamento de estado), e firebase
+                como banco de dados.
               </p>
               <a
                 href="http://miniblog.devluizalbuquerque.com"
