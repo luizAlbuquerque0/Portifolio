@@ -1,0 +1,119 @@
+#home {
+  margin: 0 auto;
+  padding-top: 5em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.profile-pic {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin: 3em 0;
+}
+.home_container {
+  background-color: #7510f7;
+}
+
+.description {
+  padding: 2em 0;
+  text-align: center;
+  width: 50%;
+  margin: 0 auto;
+  color: #fff;
+}
+
+.skils {
+  width: 100%;
+  padding-bottom: 4em;
+  background: linear-gradient(#7510f7, #fff);
+}
+
+.skils-centered {
+  width: 30%;
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #e6ecf8;
+  background-color: white;
+  border-radius: 6px;
+  box-shadow: 0 5px 5px 0 rgb(233 240 243 / 50%), 0 0 0 1px #e6ecf8;
+  color: #141c3a;
+}
+
+.skil {
+  width: 100%;
+  padding: 1em 2em;
+  text-align: center;
+}
+
+.icon {
+  font-size: 2em;
+  color: #7510f7;
+}
+
+li {
+  margin-bottom: 0.5em;
+}
+
+ul {
+  padding: 0;
+}
+
+.project-pic {
+  width: 100%;
+  height: 200px;
+}
+.recent-work {
+  margin-bottom: 2em;
+  width: 50%;
+  margin-top: 2em;
+}
+#recent-work_title {
+  margin-bottom: 2em;
+  text-align: center;
+}
+
+.projetos {
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.project {
+  width: 44%;
+  border: 1px solid #e6ecf8;
+  border-radius: 6px;
+  box-shadow: 0 5px 5px 0 rgb(233 240 243 / 50%), 0 0 0 1px #e6ecf8;
+}
+
+.project-description {
+  padding: 1em;
+  padding-bottom: 2em;
+  text-align: center;
+}
+.p {
+  margin-bottom: 1.5em;
+}
+
+@media (max-width: 768px) {
+  .description {
+    width: 85%;
+  }
+  .skils-centered {
+    width: 85%;
+  }
+  .recent-work {
+    width: 85%;
+  }
+  .projetos {
+    flex-direction: column;
+  }
+  .project {
+    width: 100%;
+    margin-bottom: 2em;
+  }
+}

@@ -1,0 +1,15 @@
+#portifolio {
+  margin-top: 2em;
+  text-align: center;
+}
+
+#portifolio .title {
+  margin: 3em 0;
+  font-size: 2em;
+}
+
+@media (max-width: 768px) {
+  #portifolio .title {
+    margin: 0;
+  }
+}
